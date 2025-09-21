@@ -18,21 +18,21 @@
 
 **My code in Python** 🐍 **for this challenge**
 
- 🔗 https://github.com/vegacastilloe/Conditionals/blob/main/conditionals.py
+ 🔗 https://github.com/vegacastilloe/max_min_extractor/blob/main/max_min_extractor.py
 
 
 # 🧩 Max/Min Value Extractor – pandas + Python
 
-Este script toma un conjunto de grupos con candidatos numéricos y condiciones lógicas entre ellos, genera todas las combinaciones posibles, filtra las que cumplen las condiciones, y compara la solución con una respuesta esperada.
+Este script Identifica todos los valores máximos y mínimos, convirtiendo los datos a una tabla de formato largo y compara la solución con una respuesta esperada.
 
 ## 📦 Datos
 
-- **Name**: contiene el nombre de los grupos.
-- **Conditions**: contiene el modo o instrucciones de las condiciones que se deben cumplir.
-- **Candidates**: contiene los números de candidatos que se le han asignado a cada grupo.
-- 
+- **Name**: contiene el nombre de para identificar los máximos y mínimos.
+- **Columnas B hasta I**: contienen los años de las condiciones que se deben cumplir para máximos y mínimos.
+
 ---
 ## 🧠 Lógica del análisis
+
 1. Carga un archivo Excel y limpia columnas vacías.
 2. Detecta dinámicamente el tamaño del archivo.
 3. Convierte la tabla a formato largo (`Name`, `Year`, `Value`).
